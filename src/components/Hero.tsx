@@ -97,9 +97,9 @@ export default function Hero() {
             className="flex gap-8 mt-12"
           >
             {[
-              { label: "Students", value: "500+" },
-              { label: "Teachers", value: "50+" },
-              { label: "Years", value: "10+" },
+              { label: "Students", value: "1000+" },
+              { label: "Teachers", value: "100+" },
+              { label: "Years", value: "5+" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-2xl md:text-3xl font-bold text-white">

@@ -84,7 +84,7 @@ export default function AboutPage() {
                   className="rounded-2xl shadow-xl object-cover"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-primary-500 text-white px-6 py-4 rounded-xl shadow-lg">
-                  <p className="text-3xl font-bold">10+</p>
+                  <p className="text-3xl font-bold">5+</p>
                   <p className="text-sm text-blue-200">Years of Excellence</p>
                 </div>
               </div>

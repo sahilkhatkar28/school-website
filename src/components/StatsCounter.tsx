@@ -11,8 +11,8 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { value: 500, suffix: "+", label: "Happy Students", icon: "🎓" },
-  { value: 50, suffix: "+", label: "Expert Teachers", icon: "👨‍🏫" },
+  { value: 1000, suffix: "+", label: "Happy Students", icon: "🎓" },
+  { value: 100, suffix: "+", label: "Expert Teachers", icon: "👨‍🏫" },
   { value: 20, suffix: ":1", label: "Teacher-Student Ratio", icon: "📊" },
   { value: 4, suffix: "", label: "National Level Athletes", icon: "🏆" },
 ];
