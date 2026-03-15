@@ -20,7 +20,7 @@ export default function Footer() {
               />
               <div>
                 <h3 className="text-white font-bold text-lg">Veer International School</h3>
-                <p className="text-sm text-gray-400">Badhra, Haryana</p>
+                <p className="text-sm text-gray-400">Jui Road, Badhra, Haryana</p>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-gray-400">
@@ -94,13 +94,22 @@ export default function Footer() {
                 <span className="text-xl mt-0.5">📍</span>
                 <p className="text-sm">
                   Veer International School,<br />
-                  Badhra, Haryana
+                  Jui Road, Badhra, Haryana
                 </p>
               </div>
+              <div className="flex items-start gap-3">
+                <span className="text-xl mt-0.5">📞</span>
+                <div className="text-sm space-y-1">
+                  <a href="tel:7404118009" className="block hover:text-accent-400 transition-colors">7404118009</a>
+                  <a href="tel:7404119009" className="block hover:text-accent-400 transition-colors">7404119009</a>
+                  <a href="tel:7404111602" className="block hover:text-accent-400 transition-colors">7404111602</a>
+                  <a href="tel:7404111603" className="block hover:text-accent-400 transition-colors">7404111603</a>
+                </div>
+              </div>
               <div className="flex items-center gap-3">
-                <span className="text-xl">📞</span>
-                <a href="tel:7404118009" className="text-sm hover:text-accent-400 transition-colors">
-                  7404118009
+                <span className="text-xl">📧</span>
+                <a href="mailto:veerinternationalschool@gmail.com" className="text-sm hover:text-accent-400 transition-colors">
+                  veerinternationalschool@gmail.com
                 </a>
               </div>
             </div>

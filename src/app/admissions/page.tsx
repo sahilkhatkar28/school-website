@@ -234,7 +234,7 @@ export default function AdmissionsPage() {
                 href="tel:7404118009"
                 className="px-10 py-4 bg-white text-crimson-600 font-bold rounded-full hover:bg-gray-100 transition-all hover:scale-105 shadow-lg text-lg"
               >
-                📞 Call 7404118009
+                📞 Call Now
               </a>
               <Link
                 href="/contact"

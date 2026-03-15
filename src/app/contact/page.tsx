@@ -63,7 +63,7 @@ export default function ContactPage() {
                       <h3 className="font-bold text-gray-900 text-lg">Address</h3>
                       <p className="text-gray-600 mt-1">
                         Veer International School,<br />
-                        Badhra, Haryana
+                        Jui Road, Badhra, Haryana
                       </p>
                     </div>
                   </div>
@@ -74,11 +74,26 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-gray-900 text-lg">Phone</h3>
+                      <div className="mt-1 space-y-1">
+                        <a href="tel:7404118009" className="text-primary-500 hover:text-primary-700 transition-colors block">7404118009</a>
+                        <a href="tel:7404119009" className="text-primary-500 hover:text-primary-700 transition-colors block">7404119009</a>
+                        <a href="tel:7404111602" className="text-primary-500 hover:text-primary-700 transition-colors block">7404111602</a>
+                        <a href="tel:7404111603" className="text-primary-500 hover:text-primary-700 transition-colors block">7404111603</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-14 h-14 bg-primary-50 rounded-xl flex items-center justify-center flex-shrink-0 text-2xl">
+                      📧
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 text-lg">Email</h3>
                       <a
-                        href="tel:7404118009"
-                        className="text-primary-500 hover:text-primary-700 transition-colors text-lg mt-1 block"
+                        href="mailto:veerinternationalschool@gmail.com"
+                        className="text-primary-500 hover:text-primary-700 transition-colors mt-1 block"
                       >
-                        7404118009
+                        veerinternationalschool@gmail.com
                       </a>
                     </div>
                   </div>

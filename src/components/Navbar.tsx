@@ -31,8 +31,9 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <span>Striving Towards Perfection</span>
           <div className="flex items-center gap-4">
-            <span>📞 7404118009</span>
-            <span>📍 Badhra, Haryana</span>
+            <span>📞 7404118009, 7404119009</span>
+            <span>📧 veerinternationalschool@gmail.com</span>
+            <span>📍 Jui Road, Badhra, Haryana</span>
           </div>
         </div>
       </div>
