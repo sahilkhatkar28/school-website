@@ -55,15 +55,32 @@ export default function Footer() {
                 { href: "/gallery", label: "Gallery" },
                 { href: "/admissions", label: "Admissions" },
                 { href: "/contact", label: "Contact Us" },
+                { href: "/aff.pdf", label: "Affiliation", external: true },
+                { href: "/fire.pdf", label: "Fire Safety", external: true },
+                { href: "/rte.pdf", label: "RTE", external: true },
+                { href: "/safe-build.pdf", label: "Safe Building", external: true },
+                { href: "/society.pdf", label: "Society", external: true },
               ].map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm hover:text-accent-400 transition-colors flex items-center gap-2"
-                  >
-                    <span className="text-crimson-500">›</span>
-                    {link.label}
-                  </Link>
+                  {"external" in link ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm hover:text-accent-400 transition-colors flex items-center gap-2"
+                    >
+                      <span className="text-crimson-500">›</span>
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="text-sm hover:text-accent-400 transition-colors flex items-center gap-2"
+                    >
+                      <span className="text-crimson-500">›</span>
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
